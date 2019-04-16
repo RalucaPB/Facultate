@@ -1,0 +1,16 @@
+Fizica
+2
+real
+Dan
+Mate
+6
+real
+Gorcea
+Sport
+1
+facultativ
+Ion
+Prelucrare
+1
+facultativ
+Per
