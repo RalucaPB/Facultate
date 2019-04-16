@@ -1,0 +1,58 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+img{
+    width:200px;
+    height: 300px;
+}
+
+#pisicaImg{
+    position: absolute;
+    top: 50vh;
+    left: 20vw;
+    width: 200px;
+    height: 200px;
+}
+
+#vacaImg{
+    position: absolute;
+    top: 50vh;
+    left: 40vw;
+    width: 200px;
+    height: 200px;
+}
+
+#rataImg{
+    position: absolute;
+    top: 50vh;
+    left: 60vw;
+    width: 200px;
+    height: 200px;
+
+}
+body{
+ 
+  
+  
+    background: url(../images/bg9.png) no-repeat center center fixed; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+
+
+
+}
