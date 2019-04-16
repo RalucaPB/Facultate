@@ -1,0 +1,26 @@
+<div id="body4"><audio src = "../../assets/audios/Cerinta4.mp3" type="audio/mpeg"  autoplay>
+</audio>
+<div id="row"><div id="column" *ngFor="let animal of animals4" >
+    <img class="idA" id="{{animal.id}}" src="{{animal.imagePath}}" alt="{{animal.id}}">
+   
+  </div>
+</div>
+<div id="row">
+    <div id="column" (drop)="dropPisica($event)" (dragover)="allowDrop($event)">
+    
+    </div>
+    <div id="column" (drop)="dropPorc($event)" (dragover)="allowDrop($event)">
+    
+    </div>
+    <div id="column" (drop)="dropVaca($event)" (dragover)="allowDrop($event)">
+    
+    </div>
+    </div>
+  <div id="row">
+  <div id="column" (drop)="drop($event)" (dragover)="allowDrop($event)" *ngFor="let codita of codite" >
+    <img class="{{codita.id}}" id="{{codita.id}}" src="{{codita.imagePath}}" graggable="true" (dragstart)="drag($event)" alt="{{codita.id}}">
+   
+  
+  </div>
+</div>
+</div>

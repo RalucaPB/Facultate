@@ -1,0 +1,68 @@
+#row{
+    display: flex;
+}
+
+#column
+{
+    flex:33.33%;
+   
+    padding: 5px;
+   
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    height:200px;
+ 
+   
+}
+
+#pisica{
+    widows: 160px;
+    height: 160px;
+}
+#vaca{
+    widows: 160px;
+    height: 160px;
+}
+#porc{
+    widows: 160px;
+    height: 160px;
+}
+#coditaPorc{
+    widows: 160px;
+    height: 160px;
+}
+#coditaVaca{
+    widows: 160px;
+    height: 160px;
+}
+#coditaPisica{
+    widows: 160px;
+    height: 160px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  #body4 {
+ 
+  
+  
+    background: url(../../assets/images/bg2.png) no-repeat center center fixed; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+
+
+
+}

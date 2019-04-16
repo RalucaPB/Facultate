@@ -1,0 +1,11 @@
+
+<div id="body8">
+    <audio src = "../../assets/audios/GhicitoarePorc.mp3" type="audio/mpeg"  autoplay>  
+    </audio>
+
+    <div id="row"> <div id="column" *ngFor="let animal of animals8">
+        <img id="{{animal.id}}" src="{{animal.imagePath}}" (click)="onSelect(animal)" alt="{{animal.id}}">
+       </div>
+        
+ </div>
+</div>

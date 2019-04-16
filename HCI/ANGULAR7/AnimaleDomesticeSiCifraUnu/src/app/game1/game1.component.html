@@ -1,0 +1,18 @@
+<div id="body1">
+  <div id="unu1"></div>
+  <div id="bigDiv">
+    <audio src = "../../assets/audios/Cerinta1.mp3" type="audio/mpeg"  autoplay>
+    </audio>
+  <div id="row">
+  <div id="column" *ngFor="let animal of animal1">
+      <img id="{{animal.id}}" src="{{animal.imagePath}}" (click)="onSelect(animal)" alt="{{animal.id}}">
+    </div>
+  </div>
+  <div id="row">
+  <div id="column" *ngFor="let folos of folos1">
+    <img id="{{folos.id}}" src="{{folos.imagePath}}" (click)="onSelect(folos)" alt="{{folos.id}}">
+
+</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,13 @@
+
+<div id="body">
+  <audio src = "../../assets/audios/Andrei.mp3" type="audio/mpeg"  autoplay>
+  </audio>
+<div *ngFor="let animal of animals">
+  <img id="{{animal.id}}" src="{{animal.imagePath}}" (click)="onSelect(animal)" alt="{{animal.id}}">
+ 
+</div>
+
+<nav>
+<a routerLink="/games"><img id="gamesPage" src="../../assets/images/arrow.png" alt="play"></a></nav>
+
+</div>

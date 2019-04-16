@@ -1,0 +1,11 @@
+<div id="body5"><audio src = "../../assets/audios/Cerinta5.mp3" type="audio/mpeg"  autoplay>
+</audio>
+        <div id="row"> <div id="column" *ngFor="let animal of animals5">
+            <img id="{{animal.id}}" src="{{animal.imagePath}}" alt="{{animal.id}}">
+           </div>
+            
+     </div>
+  <div id="center">
+    <input id="1Txt" type="text" maxlength="1" (keyup)="verify1($event)"  autocomplete="off">
+  </div>
+  </div>

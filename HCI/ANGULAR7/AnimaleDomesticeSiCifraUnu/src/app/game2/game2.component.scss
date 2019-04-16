@@ -1,0 +1,154 @@
+#gaina1
+{
+   // position: absolute;
+   // left: 30px;
+   // top: 10%;
+    width: 50%;
+    height: 60%;
+}
+#gaina1transparent
+{
+   // position: absolute;
+   // left: 30px;
+   // top: 10%;
+   width: 50%;
+   height: 60%;
+    opacity: .5;
+}
+#gaina2
+{
+   // position: absolute;
+    //left: 37%;
+  //  top: 55%;
+  width: 50%;
+  height: 60%;
+}
+#gaina2transparent
+{
+  //  position: absolute;
+   // left: 37%;
+   // top: 55%;
+   width: 50%;
+   height: 60%;
+    opacity: .5;
+}
+#pisica1
+{
+   // position: absolute;
+   // left: 30%;
+   // top: 10%;
+   width: 50%;
+   height: 60%;
+}
+#pisica1transparent
+{
+   // position: absolute;
+   // left: 30%;
+   // top: 10%;
+   width: 50%;
+   height: 60%;
+    opacity: .5;
+}
+#pisica2
+{
+   // position: absolute;
+   // left: 55%;
+   // top: 55%;
+   width: 50%;
+   height: 60%;
+}
+#pisica2transparent
+{
+   // position: absolute;
+   // left: 55%;
+   // top: 55%;
+   width: 50%;
+   height: 60%;
+    opacity: .5;
+}
+#caine1
+{
+   // position: absolute;
+   // left: 50%;
+   // top: 10%;
+   width: 50%;
+   height: 60%;
+}
+#caine1transparent
+{
+   // position: absolute;
+   // left: 50%;
+  //  top: 10%;
+  width: 50%;
+  height: 60%;
+    opacity: .5;
+}
+#caine2
+{
+   // position: absolute;
+   // left: 8%;
+   // top: 50%;
+   width: 50%;
+   height: 60%;
+}
+#caine2transparent
+{
+   // position: absolute;
+   // left: 8%;
+   // top: 50%;
+   width: 50%;
+   height: 60%;
+    opacity: .5;
+}
+#bigDiv
+{
+    margin: auto;
+    width: 50%;
+    padding: 40px;
+    
+}
+#row{
+    display: flex;
+    padding-top:100px; 
+}
+
+#column
+{
+    flex:33.33%;
+    padding: 5px;
+}
+#unu2{
+    // width:100px;
+    // height:200px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+ 
+ }
+ #unu1{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+ }
+ #body2 {
+ 
+  
+  
+    background: url(../../assets/images/bg4.png) no-repeat center center fixed; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+
+
+
+}

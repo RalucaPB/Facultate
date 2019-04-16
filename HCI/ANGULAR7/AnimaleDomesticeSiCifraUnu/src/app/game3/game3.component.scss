@@ -1,0 +1,68 @@
+#row{
+    display: flex;
+}
+
+#column
+{
+    flex:33.33%;
+   
+    padding: 5px;
+   
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    height:200px;
+ 
+   
+}
+
+#iepure{
+    widows: 160px;
+    height: 160px;
+}
+#caine{
+    widows: 160px;
+    height: 160px;
+}
+#rata{
+    widows: 160px;
+    height: 160px;
+}
+#cucuruz{
+    widows: 160px;
+    height: 160px;
+}
+#morcov{
+    widows: 160px;
+    height: 160px;
+}
+#os{
+    widows: 160px;
+    height: 160px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  #body3 {
+ 
+  
+  
+    background: url(../../assets/images/bg3.png) no-repeat center center fixed; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+
+
+
+}
