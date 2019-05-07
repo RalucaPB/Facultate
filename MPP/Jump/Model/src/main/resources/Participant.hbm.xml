@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="Domain.Participant" table="participant">
+        <id name="idParticipant" column="idParticipant">
+
+            <generator class="assigned"></generator>
+        </id>
+        <property name="nume" type="java.lang.String" column="nume"></property>
+        <property name="status" type="java.lang.String" column="status"></property>
+        <property name="notaLungime" type="java.lang.Integer" column="notaLungime"></property>
+        <property name="notaAterizare" type="java.lang.Integer" column="notaAterizare"></property>
+        <property name="notaStil" type="java.lang.Integer" column="notaStil"></property>
+
+    </class>
+</hibernate-mapping>

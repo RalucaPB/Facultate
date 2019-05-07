@@ -1,0 +1,22 @@
+group 'Jump'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.6'
+    compile group: 'org.hibernate', name: 'hibernate-gradle-plugin', version: '5.2.17.Final'
+    compile 'org.springframework:spring-context:5.0.4.RELEASE'
+    compile("org.springframework.boot:spring-boot-starter-web")
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('com.jayway.jsonpath:json-path')
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.44'
+    runtime 'mysql:mysql-connector-java:5.1.44'
+}
