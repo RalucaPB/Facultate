@@ -1,0 +1,21 @@
+{"_id":{"$oid":"5d0b42ec898c43a786510181"},"points":"350,60 100,600 700,600","idPolygon":"s2g3p1","class":"triangle","game":"s2g3"}
+{"_id":{"$oid":"5d0f5377d72d624b59cc43ac"},"points":"700,190 400,190 250,450 400,710 700,710 850,450","idPolygon":"s2g4p1","class":"hexagon","game":"s2g4"}
+{"_id":{"$oid":"5d0f549fd72d624b59cc43ad"},"points":"550,130 250,430 550,730 850,430","idPolygon":"s2g5p1","class":"romb","game":"s2g5"}
+{"_id":{"$oid":"5d0f842cd72d624b59cc43bd"},"points":"225,100 50,400 400,400","idPolygon":"s4g1p1","class":"triangle","game":"s4g1"}
+{"_id":{"$oid":"5d0f8abad72d624b59cc43be"},"points":"450,370 200,370 50,570 200,770 450,770 600,570","idPolygon":"s4g2p1","class":"hexagon","game":"s4g2"}
+{"_id":{"$oid":"5d0f8aebd72d624b59cc43c1"},"points":"225,50 50,350 400,350","idPolygon":"s4g2p2","class":"triangle","game":"s4g2"}
+{"_id":{"$oid":"5d0f8e84d72d624b59cc43c3"},"points":"225,100 50,400 400,400","idPolygon":"s4g3p2","class":"triangle","game":"s4g3"}
+{"_id":{"$oid":"5d0f8e93d72d624b59cc43c4"},"points":"350,420 150,560 350,720 550,560","idPolygon":"s4g3p1","class":"romb","game":"s4g3"}
+{"_id":{"$oid":"5d0f9e3dd72d624b59cc43c5"},"points":"250,100 50,300 250,500 450,300","idPolygon":"s4g4p1","class":"romb","game":"s4g4"}
+{"_id":{"$oid":"5d0fa977d72d624b59cc43c8"},"points":"450,500 200,500 50,630 200,760 450,760 600,630","idPolygon":"s4g5p2","class":"hexagon","game":"s4g5"}
+{"_id":{"$oid":"5d0fa977d72d624b59cc43c9"},"points":"250,90 50,290 250,490 450,290","idPolygon":"s4g5p1","class":"romb","game":"s4g5"}
+{"_id":{"$oid":"5d0fb422d72d624b59cc43cd"},"points":"225,100 50,400 400,400","idPolygon":"s5g1p1","class":"triangle","game":"s5g1"}
+{"_id":{"$oid":"5d0fb7a8d72d624b59cc43cf"},"points":"225,100 50,400 400,400","idPolygon":"s5g2p1","class":"triangle","game":"s5g2"}
+{"_id":{"$oid":"5d0fb7b9d72d624b59cc43d3"},"points":"300,450 100,615 300,780 500,615","idPolygon":"s5g2p2","class":"romb","game":"s5g2"}
+{"_id":{"$oid":"5d0fbbdcd72d624b59cc43d8"},"points":"450,500 200,500 50,630 200,760 450,760 600,630","idPolygon":"s5g3p1","class":"hexagon","game":"s5g3"}
+{"_id":{"$oid":"5d0fbbdcd72d624b59cc43d9"},"points":"250,90 50,290 250,490 450,290","idPolygon":"s5g3p2","class":"romb","game":"s5g3"}
+{"_id":{"$oid":"5d0fbf4dd72d624b59cc43df"},"points":"750,500 600,800 900,800","idPolygon":"s5g3p3","class":"triangle","game":"s5g3"}
+{"_id":{"$oid":"5d0fc0e8d72d624b59cc43e0"},"points":"450,500 200,500 50,630 200,760 450,760 600,630","idPolygon":"s5g4p1","class":"hexagon","game":"s5g4"}
+{"_id":{"$oid":"5d0fc0e8d72d624b59cc43e1"},"points":"700,90 500,290 700,490 900,290","idPolygon":"s5g4p2","class":"romb","game":"s5g4"}
+{"_id":{"$oid":"5d0fc0e8d72d624b59cc43e2"},"points":"750,500 600,800 900,800","idPolygon":"s5g4p3","class":"triangle","game":"s5g4"}
+{"_id":{"$oid":"5d0fc37ed72d624b59cc43e6"},"points":"770,100 570,300 770,500 970,300","idPolygon":"s5g5p1","class":"romb","game":"s5g5"}
