@@ -1,0 +1,75 @@
+#row{
+    display: flex;
+}
+
+#column
+{
+    flex:33.33%;
+   
+    padding: 5px;
+   
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    height:200px;
+ 
+   
+}
+
+#2star{
+    widows: 160px;
+    height: 160px;
+}
+#3circle{
+    widows: 160px;
+    height: 160px;
+}
+#5triangle{
+    widows: 160px;
+    height: 160px;
+}
+#n2{
+    widows: 160px;
+    height: 160px;
+}
+#n3{
+    widows: 160px;
+    height: 160px;
+}
+#n5{
+    widows: 160px;
+    height: 160px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  h2{
+    display: block;
+    margin-top:5vw;
+    margin-left: 40vw;
+    margin-right: auto;
+}
+
+#bodys {
+ 
+  
+  
+    background: url(../../../../assets/images/autism.png) no-repeat center center fixed; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+
+
+
+}

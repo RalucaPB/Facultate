@@ -1,0 +1,12 @@
+<div class="bodys">
+  <app-navbar-autism></app-navbar-autism>
+  <h2 *ngIf="exercises">{{exercises[0].name}}</h2>
+    <svg width="1000" height="800" class="allS" >
+    
+      <rect *ngIf="rects" [attr.x]="rects[0].x" [attr.y]="rects[0].y" [attr.width]="rects[0].width" [attr.height]="rects[0].height"  [attr.class]="rects[0].class" />
+  <polygon *ngFor="let polygon of polygons" [attr.points]="polygon.points" [attr.class]="polygon.class" />
+      <circle *ngFor="let circle of circles"  [attr.cx]="circle.cx" [attr.cy]="circle.cy" [attr.r]="circle.r" [attr.stroke]="circle.stroke" [attr.stroke-width]="circle.strokeWidh" [attr.fill]="circle.fill"  [attr.id]="circle.idSvg" [attr.class]="circle.class" (click)="onSelect(circle)" />
+    
+    </svg> 
+  </div>
+  
