@@ -1,0 +1,58 @@
+.side-nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .side-nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .side-nav a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  #bodys {
+ 
+  
+  
+    background: url(../../../assets/images/autism.png) no-repeat center center fixed; 
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
+    height: 100%;
+
+
+
+}
+h2{
+  display: block;
+  margin-top:5vw;
+  margin-left: 40vw;
+  margin-right: auto;
+}
+p{
+  margin-left: 5vw;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
