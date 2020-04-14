@@ -1,0 +1,29 @@
+<div id="bodys">
+  <app-navbar-autism></app-navbar-autism>
+    <!--h2>Asociați animalul cu litera cu care începe numele animalului </h2>-->
+<h2 *ngIf="exercises">{{exercises[0].name}}</h2>
+   
+<div id="row"><div id="column" *ngFor="let animal of animals" >
+    <img class="idA" id="{{animal.idEntity}}" src="{{animal.imagePath}}" alt="{{animal.idEntity}}">
+   
+  </div>
+</div>
+<div id="row">
+    <div id="column" (drop)="dropI($event)" (dragover)="allowDrop($event)">
+    
+    </div>
+    <div id="column" (drop)="dropP($event)" (dragover)="allowDrop($event)">
+    
+    </div>
+    <div id="column" (drop)="dropC($event)" (dragover)="allowDrop($event)">
+    
+    </div>
+    </div>
+  <div id="row">
+  <div id="column" (drop)="drop($event)" (dragover)="allowDrop($event)" *ngFor="let letter of letters" >
+    <img class="{{letter.idEntity}}" id="{{letter.idEntity}}" src="{{letter.imagePath}}" graggable="true" (dragstart)="drag($event)" alt="{{letter.idEntity}}">
+   
+  
+  </div>
+</div>
+</div>

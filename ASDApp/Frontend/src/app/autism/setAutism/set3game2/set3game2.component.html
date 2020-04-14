@@ -1,0 +1,10 @@
+<div class="bodys">
+  <app-navbar-autism></app-navbar-autism>
+  <h2 *ngIf="exercises">{{exercises[0].name}}</h2>
+  <svg width="1200" height="800" class="allS" >
+    
+    <rect *ngFor="let rect of rects" [attr.x]="rect.x" [attr.y]="rect.y" [attr.width]="rect.width" [attr.height]="rect.height"  [attr.class]="rect.class" />
+    <circle *ngFor="let circle of circles"  [attr.cx]="circle.cx" [attr.cy]="circle.cy" [attr.r]="circle.r" [attr.stroke]="circle.stroke" [attr.stroke-width]="circle.strokeWidh" [attr.fill]="circle.fill"  [attr.id]="circle.idSvg" [attr.class]="circle.class" (click)="onSelect(circle)" />
+  
+  </svg> 
+</div>
