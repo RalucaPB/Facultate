@@ -1,0 +1,13 @@
+<div class="bodys">
+    <app-navbar-sindrom-down></app-navbar-sindrom-down>
+    <h2 *ngIf="exercises">{{exercises[0].name}}</h2>
+    
+      <div id="row"  > <div id="column" *ngFor="let animal of animals">
+          <img id="{{animal.idEntity}}" src="{{animal.imagePath}}" alt="{{animal.idEntity}}"  (click)="onSelectC(animal)">
+         </div> </div>
+    <svg width="900" height="500" class="allS" >
+     
+      <circle *ngFor="let circle of circles"  [attr.cx]="circle.cx" [attr.cy]="circle.cy" [attr.r]="circle.r" [attr.stroke]="circle.stroke" [attr.stroke-width]="circle.strokeWidh" [attr.fill]="circle.fill"  [attr.id]="circle.idSvg" [attr.class]="circle.class" (click)="onSelect(circle)" />
+    
+    </svg> 
+  </div>

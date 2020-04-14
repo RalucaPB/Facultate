@@ -1,0 +1,9 @@
+<div id="bodys">
+    <app-navbar-sindrom-down></app-navbar-sindrom-down>
+    <h2 *ngIf="exercises">{{exercises[0].name}}</h2>
+    <div id="row"> <div id="column" *ngFor="let animal of animals">
+        <img id="{{animal.idEntity}}" src="{{animal.imagePath}}" (click)="onSelect(animal)" alt="{{animal.idEntity}}">
+       </div>
+        
+  </div>
+  </div>

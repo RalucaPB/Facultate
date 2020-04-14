@@ -1,0 +1,14 @@
+<div id="bodys"> 
+    <app-navbar-sindrom-down></app-navbar-sindrom-down>
+    <h2 *ngIf="exercises">{{exercises[0].name}}</h2>
+  <div id="row"><div id="column" *ngFor="let star of stars" >
+    <img class="idA" id="{{star.idEntity}}" src="{{star.imagePath}}" alt="{{star.idEntity}}">
+    
+      
+    
+  </div>
+  <div id="column" >
+  <input id="1Txt" type="text" maxlength="1" (keyup)="verify1($event)"  autocomplete="off">
+</div>
+</div>
+</div>
