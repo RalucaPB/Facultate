@@ -1,0 +1,22 @@
+<div id="bodys">
+  <app-navbar-autism></app-navbar-autism>
+  <h2 *ngIf="exercises">{{exercises[0].name}}</h2>
+
+
+<div id="row">
+    <div id="column" (drop)="dropR($event)" (dragover)="allowDrop($event)" style="background: rgba(212, 0, 18, 0.7)">
+    
+    </div>
+    <div id="column" (drop)="dropA($event)" (dragover)="allowDrop($event)" style="background: rgba(0, 53, 170, 0.5)">
+    
+    </div>
+   
+    </div>
+  <div id="row1">
+  <div id="column1" (drop)="drop($event)" (dragover)="allowDrop($event)" *ngFor="let star of stars" >
+    <img class="{{star.idEntity}}" id="{{star.idEntity}}" src="{{star.imagePath}}" graggable="true" (dragstart)="drag($event)" alt="{{star.idEntity}}">
+   
+  
+  </div>
+</div>
+</div>

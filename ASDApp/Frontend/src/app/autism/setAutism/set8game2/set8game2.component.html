@@ -1,0 +1,25 @@
+<div id="bodys">
+  <app-navbar-autism></app-navbar-autism>
+  <h2 *ngIf="exercises">{{exercises[0].name}}</h2>
+    <div id="row2"><div id="column2" *ngFor="let categoria of categorias" >
+      <img class="idA" id="{{categoria.idEntity}}" src="{{categoria.imagePath}}" alt="{{categoria.idEntity}}">
+     
+    </div>
+  </div>
+<div id="row">
+    <div id="column" (drop)="dropF($event)" (dragover)="allowDrop($event)" >
+    FRUCTE
+    </div>
+    <div id="column" (drop)="dropL($event)" (dragover)="allowDrop($event)" >
+    LEGUME
+    </div>
+   
+    </div>
+  <div id="row1">
+  <div id="column1" (drop)="drop($event)" (dragover)="allowDrop($event)" *ngFor="let obj of objects" >
+    <img class="{{obj.idEntity}}" id="{{obj.idEntity}}" src="{{obj.imagePath}}" graggable="true" (dragstart)="drag($event)" alt="{{obj.idEntity}}">
+   
+  
+  </div>
+</div>
+</div>
